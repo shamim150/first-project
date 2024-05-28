@@ -22,8 +22,20 @@ a{
 /* ======================================navbar css start====================================== */
 
 .navbar{
-    background: #ffffff;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    padding-top: 20px;
 }
+.navbar li a{
+   color: red;
+}
+.navbar li a:hover{
+   color: rgb(37, 44, 245);
+}
+
+
+
 .navbar .navbar-brand img{
     width: 100px;
     display: block;
@@ -36,7 +48,7 @@ a{
 
 }
 .call a{
-    color: black;
+    color: rgb(220, 18, 18);
 
 }
 
@@ -49,3 +61,20 @@ a{
 
 
 /* ======================================navbar css end========================================= */
+/* ======================================header_part css start======================================== */
+
+
+.header_part{
+    background: url(../images/10ms-homepage-cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px 0;
+    
+}
+
+
+
+
+
+/* ======================================header_part css end========================================= */
