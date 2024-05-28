@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+/* ======================================navbar css start====================================== */
+
+.navbar{
+    background: #ffffff;
+}
+.navbar .navbar-brand img{
+    width: 100px;
+    display: block;
+}
+
+
+.call{
+    display: flex;
+    align-items: center;
+
+}
+.call a{
+    color: black;
+
+}
+
+
+.navbar button{
+    background: #62f365;
+    padding: 5px 20px;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+/* ======================================navbar css end========================================= */
